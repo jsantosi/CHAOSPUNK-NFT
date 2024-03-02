@@ -1,0 +1,35 @@
+[33mcommit 73634f330fae7fade465c563f6313e46bf5121d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jessica SantoSi <jessica@dgin.com.br>
+Date:   Sat Mar 2 19:34:46 2024 -0300
+
+    style: Adiciona estrutura HTML, CSS e imagem inicial
+    
+    Implementa a estrutura básica do HTML com seções principais como cabeçalho, navegação, conteúdo e rodapé. Adiciona um arquivo CSS externo para definir estilos básicos para a página, incluindo cores de fundo, estilos de fonte e espaçamento. Também inclui a adição de uma imagem de exemplo ao conteúdo principal da página.
+
+[33mcommit fd7d977e17b8baaaddbd01f63bf2772e8131f93a[m
+Author: Jessica SantoSi <jessica@dgin.com.br>
+Date:   Sat Mar 2 00:31:07 2024 -0300
+
+    Adiciona estrutura HTML, CSS e IMG
+    
+    Implementação da estrutura básica do HTML com seções principais como cabeçalho, conteúdo e rodapé. Adiciona um arquivo CSS externo para definir estilos básicos para a página, incluindo cores de fundo, estilos de fonte e espaçamento. Também inclui a adição de imagens de integram o conteúdo principal.
+
+[33mcommit a347ed48529489f3ca0ee9213a01bf04050b0a89[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: a0d9e57 0be89ac
+Author: Jessica SantoSi <jessica@dgin.com.br>
+Date:   Mon Feb 26 20:08:17 2024 -0300
+
+    Merge branch 'main' of github.com:jsantosi/teste
+    teste-de-merge
+
+[33mcommit a0d9e577fbe441f7a1d000c9dfe4bb8c3b16f0a7[m
+Author: Jessica SantoSi <jessica@dgin.com.br>
+Date:   Mon Feb 26 19:12:38 2024 -0300
+
+    adicionando pasta
+
+[33mcommit 0be89acd55d00f35e41c09dd7bd9744268fcf08f[m
+Author: Jessica SantoSi <jessica@dgin.com.br>
+Date:   Sun Feb 25 23:03:50 2024 -0300
+
+    primeiro commit
