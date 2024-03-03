@@ -92,9 +92,7 @@ h1{
 	  font-weight: 300;
 		font-size: 1.4em;
 }
-.btn-grad.active{
-  background: linear-gradient(356deg, rgb(109 88 152), rgb(255 255 255 / 0%) 70.71%), linear-gradient(58deg, rgb(0 255 255), rgba(0, 255, 0, 0) 70.71%), linear-gradient(289deg, rgb(181 157 207), rgba(0, 0, 255, 0) 70.71%);
- }         
+       
 .btn-grad {
 	background: linear-gradient(#282237 20%, #211d30 85%, #2e2a3a 20%);
 	margin: 10px;
@@ -117,14 +115,14 @@ h1{
 	font-weight: 600;
 	text-decoration: none;
 }
-.js .nft{
+[data-target]{
   opacity: 0;
   visibility: hidden;
   position: absolute;
   top: 0;
   transform: translate3d(0,50px,0);
 }
-.js .nft.active{
+[data-target].active{
   opacity: 1;
   visibility: visible;
   top: auto;
@@ -132,6 +130,9 @@ h1{
   transition:3s;
   transform: translate3d(0px,0,0);
 }
+[data-click].active{
+  background: linear-gradient(356deg, rgb(109 88 152), rgb(255 255 255 / 0%) 70.71%), linear-gradient(58deg, rgb(0 255 255), rgba(0, 255, 0, 0) 70.71%), linear-gradient(289deg, rgb(181 157 207), rgba(0, 0, 255, 0) 70.71%);
+ }  
 .img-punk{
 	width: auto;
 	padding: 2em 0;
