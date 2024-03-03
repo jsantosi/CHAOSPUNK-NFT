@@ -92,9 +92,11 @@ h1{
 	  font-weight: 300;
 		font-size: 1.4em;
 }
-          
+.btn-grad.active{
+  background: linear-gradient(356deg, rgb(109 88 152), rgb(255 255 255 / 0%) 70.71%), linear-gradient(58deg, rgb(0 255 255), rgba(0, 255, 0, 0) 70.71%), linear-gradient(289deg, rgb(181 157 207), rgba(0, 0, 255, 0) 70.71%);
+ }         
 .btn-grad {
-	background-image: linear-gradient(#282237 20%, #211d30 85%, #2e2a3a 20%);
+	background: linear-gradient(#282237 20%, #211d30 85%, #2e2a3a 20%);
 	margin: 10px;
 	padding: 15px 45px;
 	text-align: center;
@@ -114,6 +116,21 @@ h1{
 	color: #13101E;
 	font-weight: 600;
 	text-decoration: none;
+}
+.js .nft{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  transform: translate3d(0,50px,0);
+}
+.js .nft.active{
+  opacity: 1;
+  visibility: visible;
+  top: auto;
+  position: relative;
+  transition:3s;
+  transform: translate3d(0px,0,0);
 }
 .img-punk{
 	width: auto;
